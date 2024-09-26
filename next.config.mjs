@@ -4,7 +4,6 @@ const nextConfig = {
   images: {
     remotePatterns: [{ protocol: 'https', hostname: 'img.clerk.com' }]
   },
-  output: "export"
 };
 
 export default withSentryConfig(nextConfig, {
